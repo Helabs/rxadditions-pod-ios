@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Marcilio Júnior' => 'marciliojrs@gmail.com' }
     s.source           = { :git => 'https://github.com/helabs/rxadditions-pod-ios.git', :tag => s.version.to_s }
     s.default_subspec  = 'Core'
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '9.0'
   
     s.subspec "Core" do |ss|
       ss.source_files = 'Classes/RxAdditions/'  
