@@ -53,17 +53,3 @@ extension Reactive where Base: UIAlertController {
     }
 
 }
-
-fileprivate func dismissViewController(_ viewController: UIViewController, animated: Bool) {
-    if viewController.isBeingDismissed || viewController.isBeingPresented {
-        DispatchQueue.main.async {
-            dismissViewController(viewController, animated: animated)
-        }
-
-        return
-    }
-
-    if viewController.presentingViewController != nil {
-        viewController.dismiss(animated: animated, completion: nil)
-    }
-}

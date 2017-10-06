@@ -1,3 +1,5 @@
+import RxCocoa
+
 internal func dismissViewController(_ viewController: UIViewController, animated: Bool) {
     if viewController.isBeingDismissed || viewController.isBeingPresented {
         DispatchQueue.main.async {

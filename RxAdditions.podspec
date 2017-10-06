@@ -39,6 +39,6 @@ Pod::Spec.new do |s|
     s.subspec "PINRemoteImage" do |ss|
       ss.source_files = 'Classes/PINRemoteImage/'
       ss.dependency 'RxAdditions/Core'
-      ss.dependency 'PINRemoteImage', '~> 3.0.0-beta.12'
+      ss.dependency 'PINRemoteImage', '~> 3.0.0-beta.6'
     end
   end
