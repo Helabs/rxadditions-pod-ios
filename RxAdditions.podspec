@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/helabs/coordinator-ios-pod'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Marcilio Júnior' => 'marciliojrs@gmail.com' }
-    s.source           = { :git => 'https://github.com/helabs/rxadditions-ios-pod.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/helabs/rxadditions-pod-ios.git', :tag => s.version.to_s }
     s.default_subspec  = 'Core'
     s.ios.deployment_target = '8.0'
   
